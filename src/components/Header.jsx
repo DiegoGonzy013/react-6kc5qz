@@ -7,6 +7,10 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
   }
+  createMenuLinks(){
+    const listComponents = [];
+    
+  }
 
   render() {
     return (
