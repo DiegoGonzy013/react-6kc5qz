@@ -1,6 +1,6 @@
 import React from "react";
-import React from 'react';
 import { Link } from 'react-router-dom';
+import {MenuItems} from'../data/MenuItems';
 import './Headerstyle.css';
 
 class Header extends React.Component {
