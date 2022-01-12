@@ -21,15 +21,15 @@ export function App() {
   return (
     <Router>
       <Header />
-      {createRoutes()}
+      {/*createRoutes()*/}
       {MenuItems.map(function createRoute(item){
         return (
-          <Route path={item.path} exact component={item.component}/>
-        );} )}   
-        {MenuItems.map((item)=> {
+          <Route key={item.id} path={item.path} exact component={item.component}/>
+        );} )}  
+        {/*MenuItems.map((item)=> {
         return (
           <Route path={item.path} exact component={item.component}/>
-        );} )}   
+        );} )*/}   
     </Router>
   );
 }
