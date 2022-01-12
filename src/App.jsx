@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Home } from './components/Home';
 import { PaginaListas } from './components/PaginaListas';
 import { Perfil } from './components/Perfil';
-import { Appitems } from './data/Appitems';
+import { MenuItems } from './data/MenuItems';
 import Header from './components/Header';
 
 export function App() {
