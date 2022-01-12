@@ -11,19 +11,20 @@ export function App() {
   return (
     <Router>
       <Header />
-      {Appitems.map((item) => {
+      {MenuItems.map((item) => {
             return (
-              <li key={item.id}>
-                <Route to={item.path}>{component.title}</Route>
-              </li>
-            );
-      <Route path="/" exact component={Home} />
-      <Route path="/listas" component={PaginaListas} />
-      <Route path="/perfil" component={Perfil} />
+                <Route 
+                {id.}>{item.path}{title.}{
+                exact
+                item.component
+                </Route>
+              );})}
     </Router>
   );
 }
 
 export function abc() {
-
+  /*<Route path="/" exact component={Home} />
+  <Route path="/listas" component={PaginaListas} />
+  <Route path="/perfil" component={Perfil} />*/
 }
