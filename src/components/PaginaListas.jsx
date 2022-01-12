@@ -3,7 +3,7 @@ import "../style.css";
 import Lista from './Lista';
 import ListaClase from './ListaClase';
 
-export default function App(){
+export  function App(){
   const elementos1 = [
     {texto: 'Descomer', prioridad:'alta'}, 
     {done: true ,texto:'Comer'},
