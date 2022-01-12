@@ -13,11 +13,7 @@ export function App() {
       <Header />
       {MenuItems.map((item) => {
             return (
-                <Route 
-                {id.}>{item.path}{title.}{
-                exact
-                item.component
-                </Route>
+                <Route to={item.path}>{item.title}exact{item.component}</Route>
               );})}
     </Router>
   );
