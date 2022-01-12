@@ -13,7 +13,19 @@ class Header extends React.Component {
     return (
       <nav>
         <h1>Mi aplicación</h1>
-
+        {/*
+        <ul>{this.createMenuLinks()}</ul>
+        <ul>
+          Forma 2: map (función) 
+          {MenuItems.map(function (item) {
+            return (
+              <li>
+                <Link to={item.path}>{item.title}</Link>
+              </li>
+            );
+          })}
+        </ul>
+        */}
         <ul>
           {/* Forma 3: map (función flecha) */}
           {MenuItems.map((item) => {
