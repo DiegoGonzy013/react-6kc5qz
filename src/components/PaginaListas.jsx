@@ -17,7 +17,7 @@ export  function App(){
   const elementos3 = [
     {done: true, texto:'Pintura', prioridad:'media'},
     {texto:'Fruta'},
-    {texto:'Pan', prioridad:'alta'},
+    {texto:'Pan', prioridad:'alta'}
   ];
   return (
     <div>
